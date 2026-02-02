@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #ffe6f0;
+    text-align: center;
+    padding-top: 80px;
+    color: #b30059;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+button {
+    font-size: 20px;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#startBtn {
+    background: #ff4da6;
+    color: white;
+}
+
+#yesBtn {
+    background: #ff0066;
+    color: white;
+}
+
+#noBtn {
+    background: #a6003e;
+    color: white;
+}
+
+.hidden { display: none; }
+
+#result {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
